@@ -1,5 +1,4 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import About from '../components/About.vue'
 import Forum from '../components/Forum.vue'
 import MainLayout from '../layouts/MainLayout.vue'
 import GlobalLayout from '../layouts/GlobalLayout.vue'
@@ -17,13 +16,7 @@ const routes = [
     },
     {
         path: '/about',
-        component: GlobalLayout,
-        children: [
-            {
-                path: '',
-                component: About
-            }
-        ]
+        redirect: '/portal'
     },
     {
         path: '/analyse',
