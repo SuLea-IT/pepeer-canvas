@@ -1,0 +1,9 @@
+﻿**/node_modules/
+**/.env
+
+PM-System-Beta-Front-Beta/dist/
+PM-System-Beta-Front-Beta/PM-System-Beta/data/
+PM-System-Beta-Front-Beta/PM-System-Beta/xenium_data/
+
+xenium数据/
+数据/
